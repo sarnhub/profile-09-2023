@@ -1,0 +1,206 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Comfortaa:wght@500&family=Oswald:wght@300;400;700&family=Quicksand&family=Space+Grotesk&display=swap');
+
+/* universal */
+*{
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    padding: 0;  
+}
+/* main container */
+.container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #171717;
+    
+}
+/* navigation bar */
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#444444;
+    padding: 30px 0px;
+    position: sticky;
+    top: 0px;
+    z-index: 12;
+}
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #EDEDED;
+    margin: 0px 20px;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #DA0037;
+}
+
+/* home section */
+/* ------------ */
+#home{
+    width: 100%;
+    height: 95vh; 
+    position: relative;  
+}
+.home-cont{
+    padding-left: 120px;
+    padding-top: 200px;
+    line-height: 70px;
+    text-align: justify;
+}
+.home-cont h1{
+    font-size: 40px;
+    color: #EDEDED;
+}
+.home-cont p{
+    font-size: 30px;
+    color: #EDEDED;
+}
+.home-cont span{
+    color: #DA0037;
+}
+#home img{
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    left: 700px;
+    bottom: 100px;
+    border-radius: 30px;
+    opacity: 0.9;
+    background-blend-mode: screen;
+}
+
+/* about section */
+/* ------------- */
+#about{
+    width: 100%;
+    height: 100vh;
+    background-color: #DA0037;
+}
+/* all sections heading */
+.sec-head{
+    padding-top: 50px;
+    padding-left: 50px;
+    color: #EDEDED;
+}
+#about p{
+    margin: 50px;
+    text-align: justify;
+    color: #171717;
+    font-size: 20px;
+    line-height: 30px;
+}
+#about a{
+    background-color: #444444;
+    padding: 12px 12px;
+    text-decoration: none;
+    color: #EDEDED;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 43%;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+#about a:hover{
+    transform: scale(1.1);
+    transition: all 0.4s ease;
+}
+
+/* portfolio section */
+/* ----------------- */
+#portfolio{
+    width: 100%;
+    height: 100vh;
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p-cards{
+    width: 300px;
+    height: 30%;
+    background-color: #EDEDED;
+    margin: 120px 30px;
+    border-radius: 10px;
+    padding: 8px;
+}
+.p-cards a{
+    text-decoration: none;
+}
+.p-cards h4{
+    padding: 20px 0px;
+    color:#171717 ;
+}
+.p-cardimg{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%; 
+}
+.p-cards:hover{
+    transform: scale(1.2);
+    transition: all 0.4s ease;
+}
+
+/* contact section */
+/* --------------- */
+#contact{
+    position: relative;
+    width: 100%;
+    height: 45vh;
+}
+/* c-div1 group */
+.c-div1{
+    background-color: #444444;
+    width: 80%;
+    height: 100%;
+}
+.c-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.info-box{
+    margin: 80px 40px;
+    font-size: 18px;
+    color: #EDEDED;
+}
+.info-box i{
+    margin-right: 10px;
+    color: #171717;
+    font-size: 20px;
+}
+/* c-div2 group */
+.c-div2{
+    position: absolute;
+    background-color: #DA0037;
+    width: 20%;
+    height: 100%;
+    right: 0;
+    top: 0;
+}
+.icon-div{
+    
+    padding-left: 110px;
+    padding-top: 33px;
+}
+.icon-div .icon{
+    margin: 28px 0px;
+    font-size: 30px;
+}
+.icon a{
+    color: #EDEDED;
+}
+.icon i:hover{
+    transform: scale(1.2);
+}
+
+/* responsive section */
+
